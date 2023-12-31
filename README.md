@@ -1,5 +1,5 @@
 # insomnia-mod
-A Fabric Mod that searchs make Minecraft an more challenging game with minor changes.
+Insomnia Mod is a Fabric Mod that targets to make Minecraft an more challenging game without making
 
 ## Credits
 - Thanks to Fabric Discord Server moderators for assistance;
