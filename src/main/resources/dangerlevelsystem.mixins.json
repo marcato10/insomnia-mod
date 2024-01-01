@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.dangerlevelsystem.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExampleMixin",
+    "InsomniaPlayerEntityMixin",
+    "entity.InsomniaPhantomSpawner",
+    "entity.InsomniaSkeletonMixin",
+    "entity.InsomniaSpiderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
