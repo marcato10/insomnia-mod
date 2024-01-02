@@ -38,12 +38,7 @@ public class InsomniaSpiderMixin extends MobEntity {
 
     @Inject(method = "initGoals",at = @At("TAIL"))
     private void initializeHybridCombat(CallbackInfo callbackInfo){
-        this.goalSelector.add(2,new TrackTargetDistanceGoal((SpiderEntity)(Object)this,1.0f,4.0f,12.0f));
-    }
-
-    @Inject(method = "tick",at = @At("HEAD"))
-    private void changePosture(CallbackInfo callbackInfo){
-
+        this.goalSelector.add(2, new TrackTargetDistanceGoal(this,0.8f));
     }
 
 }
